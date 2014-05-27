@@ -33,7 +33,7 @@ class Deployment
   requestBody: ->
     ref: @ref
     force: @force
-    auto_merge: true
+    auto_merge: false
     environment: @env
     description: "Deploying from hubot-deploy-v#{Version}"
     payload:
