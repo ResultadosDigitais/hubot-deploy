@@ -1,3 +1,16 @@
+0.7.0
+=====
+
+* Support recent deployments listing in chat `/deploys hubot`
+* Support required_contexts in deployment API
+
+0.6.x
+=====
+
+* Loosen required hubot version >= 2.7.2
+* Loosin node engine requirements to work with 0.8 and 0.10
+* Customizable script prefix, defaults to 'deploy' still
+
 0.4.1
 =====
 
